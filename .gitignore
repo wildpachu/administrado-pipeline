@@ -1,0 +1,25 @@
+# Credenciales y secrets
+.env
+credentials.json
+credenciales.json
+
+# Entorno virtual
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Datos (no versionar descargas ni procesados)
+data/raw/
+data/interm/
+data/processed/
+
+# Logs
+logs/
+
+# Sistema
+.DS_Store
+Thumbs.db

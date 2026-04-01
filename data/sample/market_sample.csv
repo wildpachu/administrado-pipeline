@@ -1,0 +1,10 @@
+Fecha,Tienda,SKU,Tipo,Dimension,Cantidad,Facturación,Tipo de Publicación
+30/03/2025,Competidor Norte,CORT0001,Blackout,160x200cm,12,2340000,Clásica
+30/03/2025,Competidor Norte,CORT0002,Sunscreen,120x160cm,8,1280000,Premium
+30/03/2025,Competidor Norte,NO TENEMOS,Blackout,220x250cm,3,720000,Clásica
+30/03/2025,Competidor Sur,CORT0001,Blackout,160x200cm,6,1110000,Premium
+30/03/2025,Competidor Sur,CORT0003,Doble,140x180cm,4,1080000,Clásica
+30/03/2025,Competidor Sur,NO ENCONTRADO,Sunscreen,,2,280000,Clásica
+30/03/2025,Distribuidora Central,CORT0002,Sunscreen,120x160cm,15,2250000,Premium
+30/03/2025,Distribuidora Central,CORT0004,Blackout,200x220cm,7,1750000,Clásica
+30/03/2025,Distribuidora Central,NO TENEMOS,Doble,180x220cm,2,560000,Premium
