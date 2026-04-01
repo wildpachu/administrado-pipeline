@@ -31,9 +31,9 @@ Sample output: [`data/sample/market_sample.csv`](data/sample/market_sample.csv) 
                                                                     │
         ┌───────────────┬─────────────────────┬────────────────┐   │
         ▼               ▼                     ▼                ▼   │
-  src/extract/    src/extract/        src/transform/    src/load/   │
-  extract_own.py  extract_market.py   transform.py      load_       │
-                        │             transform_own.py  sheets.py   │
+  src/extract/    src/extract/        src/transform/    src/load/        │
+  extract_own.py  extract_market.py   transform.py      load_sheets.py   │
+                        │             transform_own.py                   │
                         └─── share ──►src/extract/                  │
                                       auth.py (login)               │
                                                                     │
@@ -74,7 +74,7 @@ Administrado (browser scraping)
 ## Project structure
 
 ```
-sheet-pipeline/
+administrado-pipeline/
 ├── main.py                      # CLI entry point
 ├── config.py                    # Paths, IDs, timeouts
 │
@@ -113,8 +113,8 @@ sheet-pipeline/
 ### 1. Clone and install dependencies
 
 ```bash
-git clone https://github.com/your-username/sheet-pipeline.git
-cd sheet-pipeline
+git clone https://github.com/wildpachu/administrado-pipeline.git
+cd administrado-pipeline
 pip install -r requirements.txt
 playwright install chromium
 ```
@@ -122,6 +122,10 @@ playwright install chromium
 ### 2. Configure credentials
 
 ```bash
+# Windows
+copy .env.example .env
+
+# macOS / Linux
 cp .env.example .env
 ```
 
